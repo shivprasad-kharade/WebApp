@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  name:'TestPool' 
-  vmImage:'Agent01'
+  name:'Default' 
+  vmImage:'Agent02'
 
 variables:
   solution: '**/*.sln'
